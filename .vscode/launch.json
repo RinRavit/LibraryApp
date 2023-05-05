@@ -44,7 +44,7 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "vmArgs": "--module-path ${workspaceFolder}/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path C://Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib//javafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -52,7 +52,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path ${workspaceFolder}/lib/javafx-sdk-20/lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path C://Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib//javafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
