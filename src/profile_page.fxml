@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField layoutX="360.0" layoutY="27.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-color: lightgray;" text="Search">
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor>
+         <effect>
+            <Glow />
+         </effect>
+      </TextField>
+      <TabPane layoutY="82.0" prefHeight="318.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab id="tt" text="Suggestions">
+               <content>
+                  <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;">
+                     <children>
+                        <Pane blendMode="MULTIPLY" layoutX="33.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="160.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="208.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="160.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="383.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="166.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="564.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="150.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="50.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/istockphoto-1210701957-612x612.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="50.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Annual Report" textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="35.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Technology is the ideally..." textAlignment="CENTER" />
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="225.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/pngtree-color-matching-autumn-photography-book-cover-design-image_400413.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="221.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Autumn Poems" textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="218.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Poems within autumn..." textAlignment="CENTER" />
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="400.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/photo-1592496431122-2349e0fbc666.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="387.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Psychology of m..." textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="393.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wealth, greed and time..." textAlignment="CENTER" />
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="576.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/image%20(1).png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="576.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Little Monkey" textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="569.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eric Wells story" textAlignment="CENTER" />
+                        <ScrollBar layoutY="245.0" prefHeight="15.0" prefWidth="600.0" />
+                     </children>
+                  </AnchorPane>
+               </content></Tab>
+            <Tab id="tt" text="Borrowing">
+               <content>
+                  <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;">
+                     <children>
+                        <Pane blendMode="MULTIPLY" layoutX="33.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="160.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="50.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/childrens%20book%20cover%20illustration%20(2).jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="38.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Histoire de mes..." textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="39.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Une belle fille est perdu..." textAlignment="CENTER" />
+                        <ScrollBar layoutY="245.0" prefHeight="15.0" prefWidth="600.0" />
+                        <Text layoutX="561.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1/4">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Text>
+                        <Pane blendMode="MULTIPLY" layoutX="550.0" layoutY="8.0" mouseTransparent="true" prefHeight="45.0" prefWidth="50.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="551.0" layoutY="8.0" mouseTransparent="true" prefHeight="45.0" prefWidth="50.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+            <Tab id="tt" text="Borrowed">
+               <content>
+                  <AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;">
+                     <children>
+                        <Pane blendMode="MULTIPLY" layoutX="33.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="160.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="208.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="160.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="383.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="166.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <Pane blendMode="MULTIPLY" layoutX="564.0" layoutY="5.0" mouseTransparent="true" prefHeight="235.0" prefWidth="150.0" style="-fx-background-color: lightblue;">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <opaqueInsets>
+                              <Insets top="5.0" />
+                           </opaqueInsets>
+                        </Pane>
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="50.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/image.png" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="50.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Little Frog" textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="41.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tommy, known as a lit..." textAlignment="CENTER" />
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="225.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/optimized_large_thumb_stage.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="209.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Haunted For..." textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="216.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="In the deep dark woodl..." textAlignment="CENTER" />
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="400.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/design-template-for-a-children-s-stories-book-cover-541-683x1024%20(2).jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="386.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Little Princess" textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="388.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Once upon a time, a little..." textAlignment="CENTER" />
+                        <ImageView fitHeight="200.0" fitWidth="125.0" layoutX="576.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../Pics/young-adult-fantasy-book-cover-template-533a%20(2).jpg" />
+                           </image>
+                        </ImageView>
+                        <Text layoutX="576.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Secret Forest" textAlignment="CENTER">
+                           <font>
+                              <Font name="Arial Bold" size="18.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="569.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A mystery" textAlignment="CENTER" />
+                        <ScrollBar layoutY="245.0" prefHeight="15.0" prefWidth="600.0" />
+                     </children>
+                  </AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Separator layoutY="78.0" prefHeight="8.0" prefWidth="600.0" style="-fx-background-color: black;" />
+      <Separator layoutY="140.0" prefHeight="8.0" prefWidth="600.0" style="-fx-background-color: black;" />
+      <FontAwesomeIconView fill="WHITE" glyphName="ARROW_LEFT" layoutX="31.0" layoutY="44.0" nodeOrientation="RIGHT_TO_LEFT" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeLineJoin="ROUND">
+         <effect>
+            <DropShadow blurType="ONE_PASS_BOX" height="5.0" radius="2.0" width="5.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></FontAwesomeIconView>
+      <FontAwesomeIconView fill="WHITE" glyphName="USER_CIRCLE" layoutX="292.0" layoutY="45.0" scaleX="4.0" scaleY="4.0" stroke="BLACK" strokeLineJoin="ROUND" strokeMiterLimit="1.0" strokeType="OUTSIDE" />
+      <FontAwesomeIconView fill="LIGHTBLUE" glyphName="SEARCH" layoutX="571.0" layoutY="44.0" scaleX="2.0" scaleY="2.0" stroke="BLACK" />
+      <FontAwesomeIconView fill="LIGHTGREEN" glyphName="BOOKMARK" layoutX="171.0" layoutY="44.0" scaleX="2.0" scaleY="2.0" stroke="BLACK" />
+      <FontAwesomeIconView glyphName="ALIGN_LEFT" layoutX="213.0" layoutY="44.0" scaleX="2.0" scaleY="2.0" />
+      <Text layoutX="59.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Profile">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+   </children>
+</Pane>
