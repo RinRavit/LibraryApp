@@ -9,6 +9,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.IOException;
+
 public class Main extends Application {
     public Main() {
     }
@@ -17,8 +19,8 @@ public class Main extends Application {
         launch(args);
     }
 
-    public void start(Stage stage) throws Exception {
-        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("login.fxml"));
+    public void start(Stage stage) throws IOException {
+        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("profile_page.fxml"));
         stage.setTitle("Welcome to Library App");
         stage.setScene(new Scene(root, 500, 500));
         stage.show();
