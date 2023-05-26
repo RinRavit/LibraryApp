@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutY="100.0" prefHeight="8.0" prefWidth="600.0">
+         <children>
+            <Separator layoutX="358.0" layoutY="-32.0" orientation="VERTICAL" prefHeight="332.0" prefWidth="8.0" style="-fx-background-color: black;" />
+            <Separator layoutY="-40.0" prefHeight="8.0" prefWidth="600.0" style="-fx-background-color: black;" />
+            <Pane blendMode="OVERLAY" layoutX="365.0" layoutY="-32.0" opacity="0.5" prefHeight="332.0" prefWidth="235.0" style="-fx-background-color: Lightblue;" />
+            <AnchorPane blendMode="MULTIPLY" layoutX="-3.0" layoutY="-32.0" prefHeight="332.0" prefWidth="361.0" style="-fx-background-color: lightblue;">
+               <children>
+                  <Pane blendMode="MULTIPLY" layoutX="20.0" layoutY="10.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <Glow />
+                     </effect>
+                  </Pane>
+                  <Pane layoutX="20.0" layoutY="10.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                     <children>
+                        <Text layoutX="94.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Une belle&#10;fille se&#10;perd dans&#10;la forêt&#10;pendant &#10;sa visite.&#10;" wrappingWidth="125.419921875" />
+                        <Text layoutX="6.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Histoire de mes..." y="20.0">
+                           <font>
+                              <Font name="System Bold" size="17.0" />
+                           </font>
+                        </Text>
+                     </children></Pane>
+                  <Pane blendMode="MULTIPLY" layoutX="191.0" layoutY="10.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <Glow />
+                     </effect></Pane>
+                  <Pane blendMode="MULTIPLY" layoutX="20.0" layoutY="167.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <Glow />
+                     </effect></Pane>
+                  <Pane blendMode="MULTIPLY" layoutX="191.0" layoutY="167.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <Glow />
+                     </effect></Pane>
+                  <Pane layoutX="191.0" layoutY="10.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Pane>
+                  <Pane layoutX="20.0" layoutY="167.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Pane>
+                  <Pane layoutX="191.0" layoutY="167.0" prefHeight="155.0" prefWidth="150.0" style="-fx-background-color: Lightblue;">
+                     <effect>
+                        <InnerShadow />
+                     </effect>
+                  </Pane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+      <TextField layoutX="358.0" layoutY="17.0" prefHeight="26.0" prefWidth="194.0" style="-fx-background-color: lightgray;" text="Search" />
+      <FontAwesomeIconView fill="LIGHTBLUE" glyphName="SEARCH" layoutX="568.0" layoutY="33.0" scaleX="2.0" scaleY="2.0" stroke="BLACK" />
+      <FontAwesomeIconView fill="WHITE" glyphName="ARROW_LEFT" layoutX="33.0" layoutY="33.0" nodeOrientation="RIGHT_TO_LEFT" scaleX="2.0" scaleY="2.0" stroke="BLACK" strokeLineJoin="ROUND" text="">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+         <effect>
+            <DropShadow height="5.0" radius="2.0" width="5.0" />
+         </effect></FontAwesomeIconView>
+      <Text layoutX="58.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Returning books">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Text>
+      <ImageView fitHeight="127.0" fitWidth="120.0" layoutX="18.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pics/childrens%20book%20cover%20illustration%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="200.0" fitWidth="150.0" layoutX="60.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true" x="350.0">
+         <image>
+            <Image url="@../../../Pics/childrens%20book%20cover%20illustration%20(2).jpg" />
+         </image>
+      </ImageView>
+      <Text fontSmoothingType="LCD" layoutX="-15.0" layoutY="-46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Histoire de mes 4ans" textAlignment="RIGHT" x="400.0" y="350.0">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Text>
+      <Button contentDisplay="CENTER" layoutX="386.0" layoutY="314.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="100.0" style="-fx-background-color: white; -fx-border-color: black;" text="Description">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" />
+         </effect>
+      </Button>
+      <Button contentDisplay="CENTER" layoutX="505.0" layoutY="314.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="75.0" style="-fx-background-color: white; -fx-border-color: black;" text="Return">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" />
+         </effect>
+      </Button>
+      <Button contentDisplay="CENTER" layoutX="408.0" layoutY="355.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="150.0" style="-fx-background-color: white; -fx-border-color: black;" text="Add to favorite">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <effect>
+            <InnerShadow blurType="GAUSSIAN" />
+         </effect>
+      </Button>
+      <FontAwesomeIconView fill="WHITE" glyphName="USER_CIRCLE" layoutX="317.0" layoutY="34.0" scaleX="4.0" scaleY="4.0" stroke="BLACK" strokeType="OUTSIDE" />
+      <FontAwesomeIconView fill="LIGHTGREEN" glyphName="BOOKMARK" layoutX="222.0" layoutY="33.0" scaleX="2.0" scaleY="2.0" stroke="BLACK" />
+      <FontAwesomeIconView glyphName="ALIGN_LEFT" layoutX="257.0" layoutY="33.0" scaleX="2.0" scaleY="2.0" />
+   </children>
+</Pane>

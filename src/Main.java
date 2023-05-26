@@ -4,7 +4,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class main extends Application {
+public class Main extends Application implements App, App {
     public static void main(String[] args) throws Exception {
         launch(args);
     }
