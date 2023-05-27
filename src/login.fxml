@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
-<?import javafx.scene.control.ColorPicker?>
-<?import javafx.scene.control.MenuButton?>
-<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.paint.Color?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
 
-<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../../../../../Pictures/329596915_1286603112070465_6220450479604688690_n.jpg" />
-         </image>
-      </ImageView>
-      <Button mnemonicParsing="false" text="Bye" />
-      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
-      <MenuButton mnemonicParsing="false" text="Hi">
-        <items>
-          <MenuItem mnemonicParsing="false" text="Action 1" />
-          <MenuItem mnemonicParsing="false" text="Action 2" />
-        </items>
-      </MenuButton>
-      <Button mnemonicParsing="false" text="hello" textAlignment="JUSTIFY" textFill="#f20909" wrapText="true">
-         <font>
-            <Font size="49.0" />
-         </font>
-      </Button>
-      <ColorPicker>
-         <value>
-            <Color red="0.40789473056793213" green="0.20205897092819214" blue="0.20205897092819214" />
-         </value></ColorPicker>
-   </children>
-</VBox>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="402.0" fitWidth="280.0" layoutX="-4.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Reviews%20for%20the%2010%20Books%20I%20Read%20in%20January%20_%20The%20Espresso%20Edition.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="339.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="86.0" fitWidth="55.0" layoutX="140.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../New%20folder/Download%20From%20Chrome/user.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="93.0" layoutY="112.0" promptText="Surname" />
+            <TextField layoutX="93.0" layoutY="156.0" promptText="Password" />
+            <Text layoutX="157.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="or" />
+            <Button layoutX="142.0" layoutY="200.0" mnemonicParsing="false" text="Sign in" textFill="#2d49ff" />
+            <Text layoutX="118.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not account ?" />
+            <Text layoutX="198.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
