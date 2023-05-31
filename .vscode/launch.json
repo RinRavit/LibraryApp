@@ -9,6 +9,7 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
+<<<<<<< Updated upstream
             "projectName": "LibraryApp_22fe5d18"
         },
         {
@@ -18,6 +19,11 @@
             "mainClass": "App",
             "projectName": "LibraryApp_b5e4e8b5",
             "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+=======
+            "projectName": "LibraryApp_b5e4e8b5",
+            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+
+>>>>>>> Stashed changes
         },
         {
             "type": "java",
@@ -26,6 +32,10 @@
             "mainClass": "samples.db.SelectData",
             "projectName": "LibraryApp_3ae05fae",
             "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         },
         {
             "type": "java",
@@ -34,6 +44,10 @@
             "mainClass": "samples.db.InsertData",
             "projectName": "LibraryApp_3ae05fae",
             "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         },
         {
             "type": "java",
@@ -42,6 +56,10 @@
             "mainClass": "samples.db.CreateProductTable",
             "projectName": "LibraryApp_3ae05fae",
             "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         },
         {
             "type": "java",
@@ -50,6 +68,10 @@
             "mainClass": "samples.db.ConnectDB",
             "projectName": "LibraryApp_3ae05fae",
             "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         },
         {
             "type": "java",
