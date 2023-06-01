@@ -9,14 +9,18 @@
             "name": "Main",
             "request": "launch",
             "mainClass": "Main",
-            "projectName": "LibraryApp_b5e4e8b5"
+            "projectName": "LibraryApp_b5e4e8b5",
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
+
         },
         {
             "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "LibraryApp_22fe5d18"
+            "projectName": "LibraryApp_22fe5d18",
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
+
         },
         {
             "type": "java",
@@ -24,7 +28,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "LibraryApp_b5e4e8b5",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -32,7 +36,7 @@
             "request": "launch",
             "mainClass": "samples.db.SelectData",
             "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -40,7 +44,7 @@
             "request": "launch",
             "mainClass": "samples.db.InsertData",
             "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -48,7 +52,7 @@
             "request": "launch",
             "mainClass": "samples.db.CreateProductTable",
             "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -56,14 +60,14 @@
             "request": "launch",
             "mainClass": "samples.db.ConnectDB",
             "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         },
         {
             "type": "java",
@@ -71,7 +75,7 @@
             "request": "launch",
             "mainClass": "App",
             "projectName": "LibraryApp_3ae05fae",
-            "vmArgs": "--module-path C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryAppjavafx-sdk-20//lib --add-modules javafx.controls,javafx.fxml"
+            "vmArgs": "--module-path \"C:/Users/VICHEA/Documents/Drive-D/ITC/Year 3/Semester 2/IPE/LibraryApp/lib/javafx-sdk-20/lib\" --add-modules javafx.controls,javafx.fxml"
         }
     ]
 }
